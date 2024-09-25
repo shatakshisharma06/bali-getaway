@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Container Section */
+.container {
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.home {
+    height: 100vh;
+    width: 100%;
+    margin: -195px 0 61px;
+}
+
+.home img {
+    height: 110vh;
+    width: 100%;
+}
+
+.over-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+    color:#525545e7;
+    text-align: left;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    position: absolute;
+    top: 20px;
+    right: 30px;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color:#525545e7;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+
+.container-content h1 {
+    font-size: 4rem;
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+
+.container-content p {
+    font-size: 1.75rem;
+    margin-bottom: 20px;
+    margin-left: 25px;
+}
+
+.activity button {
+    padding: 15px 30px;
+    background-color: #ff5c5c;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    margin: 0 0 20px 55%;
+    border: none;
+    cursor: pointer;
+}
+
+/* Activities */
+.activities {
+    display: flex;
+    justify-content: space-around;  
+    padding: 50px 0 40px 0;
+    background-color: aliceblue;
+}
+
+.activity {
+    width: 30%;
+    text-align: center;
+    border-radius: 10px;
+    background-color: aliceblue;
+    box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.activity img {
+    width: 100%;
+    height: 200px;
+    border-radius: 10px 10px 0 0;
+}
+
+
+.activity h3 {
+    font-size: 1.7rem;
+    margin: 15px 0;
+}
+
+.activity p {
+    font-size: 1.2rem;
+    text-align: justify;
+    padding: 15px;
+}
+
+.activity ul{
+    margin-top: -50px;
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    text-align: left;
+    font-size: 1.2rem;
+}
+
+footer {
+   
+    height: 30vh;
+    background-color: #2f343c;
+    color: white;
+}
+
+.footer-container{
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 0 0px 0;
+}
+
+.footer-container ul{
+    list-style: none;
+}
+
+ a{
+    text-decoration: none;
+    color: whitesmoke;
+
+}
+
+
